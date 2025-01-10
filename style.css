@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    width: 320;
+    background-image:url(IMG_6202.JPG);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-size: 25px;
+    margin-left: 10px;
+}
+h5{
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+h3,h5{
+    color: white;
+    margin-top: 20px;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    color: #c90808;
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.lasthead{
+    margin-top: 10px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    background: #ebe816;
+    margin-top: 20px;
+    margin-left: 30px;
+    transform: scale(1);
+}
+/* .btn:active{
+    transform: scale(0.98);
+} */
+#blinking-button{
+    padding: 8px 35px;
+    border-radius: 48px 0px; 
+border: 0px solid #6C8003;
+}
+@keyframes blink {
+  0%, 100% {background-color:#3F06FF;}
+  50% {background-color: #8EDDBE;}
+}
+#blinking-button {
+  background-color: #8EDDBE;
+  color: white;
+  animation: blink 1s linear infinite;
+}
+ @media only screen and (max-width:576px ) and (min-width:0px){
+    .container{
+        
+        background-image:url(IMG_6202.JPG);
+        background-size: cover;
+        font-size: medium;
+        
+    } 
+      
+}
+@media only screen and (max-width:768px ) and (min-width:576px){
+    .container{
+        
+        background-image:url(IMG_6202.JPG);
+        background-size: cover;
+        font-size: small;
+        
+    } 
+      
+}
+@media only screen and (max-width:992px ) and (min-width:768px){
+    .container{
+        
+        background-image:url(IMG_6202.JPG);
+        background-size: cover;        
+    } 
+    h3{
+        font-size: 25px;
+    }
+      
+}
+@media only screen and (max-width:1200px ) and (min-width:992px){
+    .container{
+        
+        background-image:url(IMG_6202.JPG);
+        background-size: cover;     
+    } 
+   .headcontainer{
+    width: 100%;
+    height: 100vh;
+   }
+   h3,h5{
+    padding: 0px 330px;
+   }
+   h3{
+    font-size: 30px;
+   }
+   h5{
+    font-size: 23px;
+   }
+   h4{
+    font-size: 25px;
+   }
+   .photo{
+    margin-left: 450px;
+   }
+   .btn{
+    margin-left: 350px;
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+   }
+      
+}
+

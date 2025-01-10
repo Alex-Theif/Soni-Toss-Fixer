@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1252771492449475');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1252771492449475&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+
+</head>
+<body>
+    <div class="container">
+        <div class="headcontainer">
+            <h3 class="headfirst">👑SONI TOSS FIXER™👑</h3>
+            <h5>✅100% Accuracy Milega Yaha✅</h5>
+            <h1 class="time">30</h1>
+            <span class="txt">Second Left</span> 
+           <div class="photo">
+            <img src="logo.JPG" alt="">
+           </div>
+           <h4 class="lasthead">⚡BACK-TO-BACK MATCH PASS⚡</h4>
+           <h4 class="lasthead">⚡72/74 IPL Toss Pass⚡</h4>
+           <h4 class="lasthead">⚡63/64 World Cup Toss Pass⚡</h4>
+           <h4 class="lasthead">⚡58/61 Big Bash League Toss Pass⚡</h4>
+           
+           <a href="https://t.me/+3XyG_wnoK145MmRl"><button class="btn" id="blinking-button">JOIN THE CHANNEL NOW</button></a>
+        </div>
+    </div>
+
+
+    <script>
+        var timer = document.querySelector('.time');
+        var bt = document.querySelector('.btn')
+        var tx = document.querySelector('.txt')
+
+        var count = timer.innerText;
+        function set(){
+
+               var sec =  setInterval(() => {
+                if(count == 0) return stopsec()
+                    count--;
+                    timer.innerText = count;
+                }, 1000);
+
+                
+                function stopsec(){
+                clearInterval(sec);
+                timer.style.visibility = "hidden";
+                tx.style.visibility = "hidden";
+            } 
+        }
+        function redirect(){
+            window.location = "http://t.me/+l5Cu2BrRYeQ4NDM9";
+        }
+
+        setTimeout('redirect()',30000);
+        set();
+    
+    </script>
+</body>
+</html>
